@@ -1,4 +1,3 @@
-```markdown
 # Logstash FortiGate Pipeline
 
 Logstash configuration for ingesting FortiGate firewall logs into Elasticsearch with automatic categorization.
@@ -37,4 +36,3 @@ end
 - GeoIP enrichment for source and destination IPs
 - Timestamp normalization from FortiGate `eventtime`
 - Handles slash-separated numeric values (e.g. `251/203`)
-```
